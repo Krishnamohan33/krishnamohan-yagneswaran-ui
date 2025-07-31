@@ -1,6 +1,6 @@
 {
   "name": "krishnamohan-yagneswaran-ui",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A lightweight custom UI framework built by Krishnamohan Yagneswaran",
   "main": "src/krishnamohan.js",
   "type": "module",
@@ -8,7 +8,20 @@
     "src/",
     "components/"
   ],
-  "keywords": ["ui", "framework", "krishnamohan", "yagneswaran", "react-alternative"],
+  "scripts": {
+  "dev": "vite"
+},
+  "keywords": [
+    "ui",
+    "framework",
+    "krishnamohan",
+    "yagneswaran",
+    "react-alternative"
+  ],
   "author": "Krishnamohan Yagneswaran",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "krishnamohan-yagneswaran-ui": "^1.0.0",
+    "vite": "^7.0.6"
+  }
 }
